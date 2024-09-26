@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+body{
+    background-color: rgb(58, 52, 52);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* HEADER */
+.header{
+    background-color: rgb(45, 66, 66);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+
+.imglogo{
+    height: 70px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 50px;
+}
+
+.imglogo:hover{
+    transform: scale(1.2);
+}
+
+.nav-listas{
+    list-style: none;
+}
+
+.links{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.links:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-listas a:hover{
+    color: white;
+}
+
+.header .nav-listas a{
+    font-size: 700;
+    color: rgb(11, 95, 95);
+    text-decoration: none;
+}
+
+.header .boton button{
+    font-weight: 700;
+    color: rgb(45, 66, 66);
+    padding: 9px 25px;
+    background: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .boton button:hover{
+    color: white;
+    background-color: green;
+    transform: scale(1.1);
+}
+
+/* FIN DEL HEADER */
+
+/* INCIO DEL MAIN */
+
+.bannerm{
+    width: 100%;
+    height: calc(100vh - 7em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Pre-entrega2/img/main9.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.btnmain{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(45, 66, 66);
+    padding: 9px 25px;
+    background: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btnmain:hover{
+    color: rgb(252, 252, 252);
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.imgmain{
+    height: 700px;
+    width: 550px;
+    border-radius: 100px;
+}
+
+.mainsobremi{
+    background-color: rgb(58, 52, 52);
+}
+
+.contenedorsobremi{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.imgs{
+    height: 700px;
+    border-radius: 200px;
+}
+
+.h4s{
+    color: rgb(11, 95, 95);
+}
+
+.mainp{
+    background-color: rgb(25, 96, 96);
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedorplanes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+	margin: auto;
+	padding: 40px 0;
+}
+
+.card{
+    padding: 20px;
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(122, 104, 96);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.9);
+    transform: translateY(-3%);
+}
+
+.contplanes{
+    text-align: center;
+}
+
+.btnplanes{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(45, 66, 66);
+    padding: 9px 25px;
+    background: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btnplanes:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(24, 169, 36);
+    transform: scale(1.1);
+}
+
+.maincancha{
+    background-color: rgb(25, 96, 96);
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedord{
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 20px;
+}
+
+.contenedorcanchas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cancha{
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+}
+
+.contcanchas{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color: black;
+}
+
+.bannercancha{
+    border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	background-size: cover;
+	background-position: center center;
+}
+
+.btncancha{
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(45, 66, 66);
+    padding: 9px 25px;
+    background: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.btncancha:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(169, 24, 145);
+    transform: scale(1.1);
+}
+/* FIN DEL MAIN */
+
+/* INICIO DEL FOOTER */
+
+.footer{
+    background-color: rgb(45, 66, 66);
+    color: black;
+    padding: 24px;
+    font-size: 5px;
+    text-align: center;
+    color: rgb(11, 95, 95);
+}
+
+.linksf{
+    text-decoration: none;
+}
+
+/*  FIN DEL FOOTER */
