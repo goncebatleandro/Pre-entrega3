@@ -107,6 +107,12 @@ body{
     transform: scale(1.1);
 }
 
+.textobanner{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
 .imgmain{
     height: 700px;
     width: 550px;
@@ -274,16 +280,3 @@ body{
 }
 
 /*  FIN DEL FOOTER */
-
-/* CELULAR */
-@media (max-width: 1177px) {
-    .header{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    a{
-        font-size: 10px;
-    }
-}
-/* FIN DEL CELULAR */
