@@ -24,6 +24,10 @@ body{
     padding: 5px 10%;
 }
 
+.contenedorcelu{
+    display: none;
+}
+
 .imglogo{
     height: 70px;
     width: auto;
@@ -285,3 +289,44 @@ body{
 }
 
 /*  FIN DEL FOOTER */
+
+/* CELULAR */
+@media (max-width: 1177px){
+
+    .header{
+        height: 200px;
+        padding: 5px 10%;
+    }
+
+    .logotipo{
+        display: none;
+    }
+
+    .imgcelu{
+        height: 70px;
+        width: auto;
+        cursor: pointer;
+        transition: all 0.3s;
+        border-radius: 50px;
+    }
+
+    .nav-listas{
+        display: none;
+    }
+
+    .contenedorcelu{
+        display: flex;
+        flex-direction: column;;
+        text-align: center;
+        color: black;
+    }
+
+    .linkcelu{
+        font-size: 700;
+        color: rgb(222, 231, 231);
+        text-decoration: none;
+        display: inline-block;
+        padding: 0 20px;
+    }
+}
+/* FIN DEL CELULAR */
