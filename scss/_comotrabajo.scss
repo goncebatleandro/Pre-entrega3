@@ -1,0 +1,71 @@
+/* COMO TRABAJO */
+
+.maincomotrabajo {
+    background-color: rgb(25, 96, 96);
+    width: 100%;
+    padding: 2rem 10%;
+    height: calc(100vh - 100px);
+  }
+  
+  .titulotrabajo {
+    display: flex;
+    justify-content: center;
+  
+    h1 {
+      color: black;
+    }
+  }
+  
+  .contenedortrabajos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 2rem 0;
+  }
+  
+  .carta1 {
+    padding: 1rem;
+    width: 300px;
+    margin: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgb(69, 184, 121);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 0.4s ease;
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px 10px 0 0;
+    }
+  }
+  
+  .contcomotrabajo {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  .btncomotrabajo {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(0, 135, 36);
+    padding: 0.5rem 1.5rem;
+    background: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      color: #000;
+      background-color: rgb(24, 169, 36);
+      transform: scale(1.1);
+    }
+  }
+  
+  /* COMO TRABAJO */
+  

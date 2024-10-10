@@ -1,0 +1,138 @@
+/* DONDE TRABAJO */
+
+.maincancha {
+    background-color: rgb(25, 96, 96);
+    padding: 2rem 10%;
+    height: calc(100vh - 100px);
+  }
+  
+  .contenedord {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1.5rem;
+  }
+  
+  .contenedorcanchas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .cancha1 {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url(../img/cancha1.jpg);
+  }
+  
+  .cancha2 {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url(../img/cancha2.jpg);
+  }
+  
+  .cancha3 {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url(../img/cancha3.jpg);
+  }
+  
+  .cancha4 {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url(../img/cancha4.jpg);
+  }
+  
+  .cancha5 {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url(../img/cancha5.jpg);
+  }
+  
+  .cancha6 {
+    border-radius: 10px;
+    min-height: 200px;
+    font-weight: bold;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image: url(../img/cancha6.jpg);
+  }
+  
+  .contcanchas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .bannercancha {
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    background-image: url(../img/banner.jpg);
+  }
+  
+  .btncancha {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(45, 66, 66);
+    padding: 0.5rem 1.5rem;
+    background: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      color: #000;
+      background-color: rgb(169, 24, 145);
+      transform: scale(1.1);
+    }
+  }
+  
+  /* DONDE TRABAJO */
+  

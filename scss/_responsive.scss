@@ -1,0 +1,228 @@
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media (max-width: 1107px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem 5%;
+    }
+
+    .contenedorcelu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imgcelu {
+        height: 50px;
+        width: auto;
+        cursor: pointer;
+        transition: transform 0.3s;
+        border-radius: 50%;
+    }
+
+    .linkcelu {
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        transition: transform 0.3s, color 0.3s;
+    }
+
+    .linkcelu:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+
+    .boton {
+        display: none;
+    }
+
+    .nav-listas {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 1rem;
+        display: none;
+    }
+
+    .mainp {
+        height: auto;
+    }
+    
+    .maincomotrabajo {
+        height: auto;
+    }
+
+
+    .maincancha {
+        height: auto;
+    }
+
+    .contenedord {
+        grid-template-columns: 1fr;
+    }
+
+    .imglogo {
+        display: none;
+    }
+
+     /* CONTACTOS INICIO */
+     .containercontactos {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .box-info {
+        gap:15px;
+    }
+
+    .box-info > h1 {
+        font-size: 1.5rem;
+    }
+    /* CONTACTOS */
+    .contenedorcanchas {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "cancha1 cancha2 cancha3"
+        "cancha4 cancha5 cancha6";
+    }
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+    /* CONTACTOS INICIO */
+    .containercontactos {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .box-info {
+        gap:15px;
+    }
+
+    .box-info > h1 {
+        font-size: 1.5rem;
+    }
+    /* CONTACTOS */
+
+    .header {
+        padding: 1rem 2%;
+    }
+
+    .linkcelu {
+        font-weight: 700;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        transition: transform 0.3s, color 0.3s;
+    }
+
+    .linkcelu:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+
+    .nav-listas {
+        display: none;
+    }
+
+    .imglogo {
+        display: none;
+    }
+
+    .boton {
+        display: none;
+    }
+
+    .mainp {
+        height: auto;
+    }
+    
+    .maincomotrabajo {
+        height: auto;
+    }
+
+
+    .maincancha {
+        height: auto;
+    }
+
+    .contenedorcelu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contenedorcanchas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "cancha1"
+        "cancha2"
+        "cancha3"
+        "cancha4"
+        "cancha5"
+        "cancha6";
+    }
+
+    .imgcelu {
+        height: 50px;
+        width: auto;
+        cursor: pointer;
+        transition: transform 0.3s;
+        border-radius: 50%;
+    }
+
+    .bannerm {
+        background-image: url(/img/main9.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: calc(100vh - 100px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .textobanner {
+        font-size: 1.5rem;
+    }
+
+    .btnmain, .boton button, .btnplanes, .btncancha {
+        padding: 0.5rem 1rem;
+        font-size: 0.875rem;
+    }
+
+    .imgmain {
+        border-radius: 50px;
+        margin-top: 1rem;
+    }
+
+    .contenedorplanes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin: 1rem 0;
+    }
+
+    .cancha {
+        min-height: 150px;
+    }
+
+    .footer {
+        padding: 1rem 2%;
+        font-size: 0.75rem;
+    }
+}
