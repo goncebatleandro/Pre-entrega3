@@ -95,7 +95,7 @@ body {
 .textobanner {
   font-size: 2rem;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: black;
+  color: rgb(0, 0, 0);
   margin-bottom: 1rem;
 }
 
@@ -139,14 +139,14 @@ body {
 
 .imgs {
   width: 100%;
-  max-width: 300px;
+  max-width: 500px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 10%;
   margin-bottom: 1rem;
 }
 
 .h4s {
-  color: rgb(11, 95, 95);
+  color: rgb(0, 0, 0);
   font-weight: bold;
   padding: 1rem;
   background-color: aqua;
