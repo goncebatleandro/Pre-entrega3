@@ -724,7 +724,7 @@ form > button:hover {
     border-radius: 50%;
   }
   .bannerm {
-    background-image: url(/img/main9.jpg);
+    background-image: url(../img/main9.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
