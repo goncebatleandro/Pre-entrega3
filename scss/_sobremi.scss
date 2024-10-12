@@ -1,32 +1,82 @@
 /* SOBRE MI */
 
 .mainsobremi {
-    background-color: rgb(58, 52, 52);
-    padding: 2rem 10%;
-  }
-  
-  .contenedorsobremi {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .imgs {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
-    border-radius: 10%;
-    margin-bottom: 1rem;
-  }
-  
-  .h4s {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    padding: 1rem;
-    background-color: aqua;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-  }
+  height: calc(100vh - 100px);
+  background-color: rgb(25, 96, 96);
+  display: grid;
+  place-items: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.contenedorsobremi {
+  width: 400px;
+  aspect-ratio: 1 / 0.7;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+.contenedorsobremi .imgsobremi {
+  width: 100%;
+  border-radius: inherit;
+}
+.contenedorsobremi .imgsobremi img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 90%;
+  border-radius: inherit;
+  transition: 0.5s ease-in-out;
+}
+
+.contenedorsobremi::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid white;
+  border-radius: inherit;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.contenedorsobremi:hover img {
+  filter: grayscale(1) brightness(0.4);
+}
+.contenedorsobremi:hover::after {
+  opacity: 1;
+  inset: 20px;
+}
+
+.contenidos {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contenidos h2, .contenidos p {
+  opacity: 0;
+  transition: 0.4s 0.2s ease;
+}
+.contenidos h2 {
+  margin-bottom: 12px;
+  scale: 0.7;
+}
+.contenidos p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #d1d1d1;
+  transform: translateY(50%);
+}
+.contenedorsobremi:hover .contenidos h2 {
+  scale: 1;
+  opacity: 1;
+}
+.contenedorsobremi:hover .contenidos P {
+  opacity: 1;
+  transform: translateY(0);
+}
   
   /* SOBRE MI */
