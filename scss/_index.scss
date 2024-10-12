@@ -18,16 +18,20 @@
   .textobanner {
     font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 
+          0 0 15px rgba(255, 255, 255, 0.5),
+          0 0 30px rgba(255, 255, 255, 0.3),
+          0 0 50px rgba(255, 255, 255, 0.2);
     margin-bottom: 1rem;
   }
   
   .btnmain {
     text-decoration: none;
     font-weight: 700;
-    color: rgb(45, 66, 66);
+    color: #fff;
     padding: 0.5rem 1.5rem;
-    background: beige;
+    background: rgb(27, 28, 90);
     border: none;
     border-radius: 50px;
     cursor: pointer;
