@@ -630,7 +630,8 @@ form > button:hover {
 }
 
 .linkscot > a:hover {
-  background: #f0eeae;
+  color: #fff;
+  transform: scale(1.1);
 }
 
 /* FIN MAIN CONTACTOS */
