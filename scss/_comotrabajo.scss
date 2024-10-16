@@ -1,7 +1,10 @@
 /* COMO TRABAJO */
 
 .maincomotrabajo {
-    background-color: rgb(25, 96, 96);
+    background-image: url(../img/main9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00ff26;
     width: 100%;
     padding: 2rem 10%;
     height: calc(100vh - 100px);
@@ -12,7 +15,9 @@
     justify-content: center;
   
     h1 {
-      color: black;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      background-color: #04094e;
     }
   }
   
@@ -32,7 +37,7 @@
     margin: 1rem;
     border-radius: 10px;
     overflow: hidden;
-    background: rgb(69, 184, 121);
+    background: #04094e;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 0.4s ease;
@@ -49,20 +54,28 @@
     padding: 1rem 0;
   }
   
+  .contcomotrabajo h3 {
+  color: #ffffff;
+}
+
+  .contcomotrabajo p {
+    color: #ffffff;
+  }
+
   .btncomotrabajo {
     text-decoration: none;
     font-weight: 700;
-    color: rgb(0, 135, 36);
+    color: rgb(0, 0, 0);
     padding: 0.5rem 1.5rem;
-    background: beige;
+    background: rgb(190, 255, 38);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
   
     &:hover {
-      color: #000;
-      background-color: rgb(24, 169, 36);
+      color: #ffffff;
+      background-color: rgb(2, 0, 123);
       transform: scale(1.1);
     }
   }

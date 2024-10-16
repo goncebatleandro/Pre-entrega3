@@ -1,13 +1,17 @@
 /* FOOTER */
 
 .footer {
-    background-color: rgb(45, 66, 66);
+    background-color: #04094e;
     color: rgb(235, 248, 248);
     padding: 1.5rem 10%;
     font-size: 0.875rem;
     text-align: center;
   }
   
+.footer div div p {
+  color: #ffffff;
+}
+
   .linksf {
     text-decoration: none;
     color: inherit;

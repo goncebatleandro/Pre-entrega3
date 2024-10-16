@@ -1,8 +1,11 @@
 /* SOBRE MI */
 
 .mainsobremi {
+  background-image: url(../img/main9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: calc(100vh - 100px);
-  background-color: rgb(25, 96, 96);
+  background-color: #f0eeae;
   display: grid;
   place-items: center;
   font-family: "Inter", sans-serif;
@@ -12,7 +15,7 @@
 .contenedorsobremi {
   width: 400px;
   aspect-ratio: 1 / 0.7;
-  border-radius: 8px;
+  border-radius: 100px;
   position: relative;
   cursor: pointer;
 }
