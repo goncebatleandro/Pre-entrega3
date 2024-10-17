@@ -1,10 +1,11 @@
 /* DONDE TRABAJO */
 
 .maincancha {
-    background-image: url(../img/main9.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/backgrond.jpg);
     background-color: #f0eeae;
+    background-size: cover;
+    background-position: center bottom -160px;
+    background-repeat: no-repeat;
     padding: 2rem 10%;
     height: calc(100vh - 100px);
   }

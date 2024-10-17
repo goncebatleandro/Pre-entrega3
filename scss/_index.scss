@@ -1,10 +1,10 @@
 /* MAIN INDEX*/
 
 .bannerm {
-    background-image: url(../img/main9.jpg);
+    background-image: url(../img/backgrond.jpg);
     background-color: #f0eeae;
     background-size: cover;
-    background-position: center center;
+    background-position: center bottom -160px;
     background-repeat: no-repeat;
     width: 100%;
     height: calc(100vh - 100px);
@@ -15,10 +15,12 @@
     text-align: center;
   }
   
-  .textobanner {
+  .bannerindex {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
     font-size: 2rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-shadow: 
           0 0 15px rgba(255, 255, 255, 0.5),
           0 0 30px rgba(255, 255, 255, 0.3),
